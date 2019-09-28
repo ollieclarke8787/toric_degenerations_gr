@@ -35,4 +35,8 @@ The former output file has the following format:
 * Each line is (\ell, w, minimal generators of G_{k,n,l,w})
 
 
+## Polytope file
+The file *GrPolytope.py* generates Polymake code which gives the toric polytope of the ideals G_{k,n,l}
+
+
 

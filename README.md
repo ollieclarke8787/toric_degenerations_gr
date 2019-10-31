@@ -8,8 +8,8 @@ Toric Degenerations of Grassmannians and Schubert Varieties
 
 ## Macaulay2 files
 
-Each of the Macaulay2 files is used to classify the pairs (l, w) for a given k, n for which 
-G_{k,n,l,w} is a toric / non-toric / zero ideal. The difference between each of these files is:
+Run any of the Macaulay2 files to calculate the pairs (l, w) for a given k, n for which 
+G_{k,n,l,w} is a toric / non-toric / zero ideal. The value for k and n appears in the file name so for example *gsi24.m2* calculates the pairs for Gr(2,4). The differences inside each of these files is:
 * Values: k, n
 * Map: monomialMapList
 * File names: X, Y

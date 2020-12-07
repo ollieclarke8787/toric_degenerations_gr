@@ -1,20 +1,22 @@
 # toric_degenerations_gr
-Toric Degenerations of Grassmannians and Schubert Varieties
+Toric Degenerations of Grassmannians, Schubert Varieties and Richardson varieties
 
 ## List of files
-* Macaulay2 files: *gsi24.m2*, *gsi26.m2*, *gsi46.m2*
+* Macaulay2 files: *gsi24.m2*, *gsi26.m2*, *gsi46.m2*, *rich_grXY.m2* 
 * Map generator: *GrMonomialMaps.py*
 * Polytope Generator: *GrPolytope.py*
 
 ## Macaulay2 files
 
-Run any of the Macaulay2 files to calculate the pairs (l, w) for a given k, n for which 
+Run any of the Macaulay2 files *gsiKN.m2* to calculate the pairs (l, w) for a given k, n for which 
 G_{k,n,l,w} is a toric / non-toric / zero ideal. The value for k and n appears in the file name so for example *gsi24.m2* calculates the pairs for Gr(2,4). The differences inside each of these files is:
 * Values: k, n
 * Map: monomialMapList
 * File names: X, Y
   * f = "Degenerated Opposite Schubert Ideals Gr(X,Y) MAIN Output";
   * f = "Degenerated Opposite Schubert Ideals Gr(X,Y) Indices Output";
+
+Similarly for the Richardson files *rich_grKN.m2* these will calculate and output the list of restricted matching field ideals.
 
 ### Creating new Macualay2 files
 
